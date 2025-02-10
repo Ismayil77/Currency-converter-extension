@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="converter-card">
+      <div class="input-group">
+        <input type="number" id="amount" placeholder="Amount" />
+      </div>
+      <div class="currency-group">
+        <select id="currencyFrom"></select>
+        <span class="to-text">To</span>
+        <select id="currencyTo"></select>
+      </div>
+      <button id="convertBtn">Convert</button>
+    </div>
+    <div id="result" class="result-card"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
